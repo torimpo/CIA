@@ -7,6 +7,11 @@ import java.util.List;
 import com.jumpingStones.beans.Item;
 import com.jumpingStones.beans.Movement;
 
+/**
+ * 
+ * HashMap that defines the possible movements that a token can do.
+ *
+ */
 public class Rules {
 
 	private static HashMap<Item, List<Movement>> rules = new HashMap<Item, List<Movement>>();

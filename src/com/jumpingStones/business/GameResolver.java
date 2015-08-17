@@ -9,7 +9,6 @@ import org.apache.log4j.Logger;
 import com.jumpingStones.Exception.IlegalMoveException;
 import com.jumpingStones.beans.Item;
 import com.jumpingStones.beans.Movement;
-import com.jumpingStones.beans.Parameters;
 import com.jumpingStones.rules.Rules;
 
 public class GameResolver {
