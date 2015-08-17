@@ -2,6 +2,11 @@ package com.jumpingStones.Exception;
 
 import com.jumpingStones.beans.Movement;
 
+/**
+ * 
+ * Exception that is thrwon when somebody wants to do an illegal movement.
+ *
+ */
 
 public class IlegalMoveException extends Exception {
 	Movement move;
