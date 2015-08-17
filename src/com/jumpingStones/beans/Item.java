@@ -1,5 +1,23 @@
 package com.jumpingStones.beans;
 
+/**
+ * This is a cross grid. 
+ *  abcdefghi
+ * 1   xxx
+ * 2   xxx
+ * 3   xxx
+ * 4xxxxxxxxx
+ * 5xxxx xxxx
+ * 6xxxxxxxxx
+ * 7   xxx
+ * 8   xxx
+ * 9   xxx 
+ * Defines a token in the grid.
+ * name: name of the token (ussually row + col)
+ * row: Row where is placed.
+ * col: Column where is placed.
+ *
+ */
 public class Item {
 	private String name;
 	private int row;

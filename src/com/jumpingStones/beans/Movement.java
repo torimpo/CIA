@@ -1,5 +1,13 @@
 package com.jumpingStones.beans;
 
+/**
+ * 
+ * Defines all the movements that a token can do.
+ * fromPositon: Defines where it comes from
+ * toPosition: where it can move to
+ * jumpPosition: token that is eaten
+ *
+ */
 public class Movement {
 
 	private Item fromPosition;

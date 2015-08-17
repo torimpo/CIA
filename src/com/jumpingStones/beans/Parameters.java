@@ -5,6 +5,15 @@ import java.util.List;
 
 import com.jumpingStones.rules.Rules;
 
+/**
+ * 
+ * Class that simulates the game.
+ * table: draws the table.
+ * rules: All the possible movements for each token.
+ * moves: Moves done at the moment.
+ * iteration: Number of iteration.
+ *
+ */
 public class Parameters {
 
 	private boolean[][]table;
